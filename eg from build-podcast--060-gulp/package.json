@@ -1,0 +1,25 @@
+{
+  "name": "demo-gulp",
+  "version": "0.1.0",
+  "description": "demo of gulp",
+  "main": "index.html",
+  "scripts": {
+    "in": "npm install gulp-jshint"
+  },
+  "keywords": [
+    "demo",
+    "node",
+    "gulp"
+  ],
+  "author": "Sayanee",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^0.1.3",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^1.12.0",
+    "gulp-minify-css": "^0.3.13",
+    "gulp-plumber": "^0.6.6",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^0.3.2"
+  }
+}
