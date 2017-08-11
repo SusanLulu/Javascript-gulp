@@ -2,7 +2,7 @@
 
 Gulp is a useful tool for front-end automation, so does npm script
 </br>
-this exericse is to make a gulpfile and install some plugins, also using a little bit npm script
+This exericse is to make a gulpfile and install some plugins, also using a little bit npm script
 </br>
 
 **origin code** in  folder "eg from build-podcast"
@@ -15,7 +15,7 @@ this exericse is to make a gulpfile and install some plugins, also using a littl
 - gulp-jshint : check syntax
 - gulp-plumber : check syntax and debug without stop
 
-######Tips:  gulp.watch
+###### Tips:  gulp.watch
 
 ### Relevant resource:
 0. [!!!AWESOME node school](https://nodeschool.io/zh-tw/)
