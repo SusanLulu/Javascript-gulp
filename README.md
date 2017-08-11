@@ -2,22 +2,24 @@
 
 Gulp is a useful tool for front-end automation, so does npm script
 </br>
-this exericse is to make a gulpfile and install some plugins,using a little bit npm script
+</br>
+this exericse is to make a gulpfile and install some plugins, also using a little bit npm script
 </br>
 
-origin code in  folder "eg from build-podcast"
+**origin code** in  folder "eg from build-podcast"
 
 ###### gulp plugins includes:
-- gulp-minify-css/gulp-clean-css
-- gulp-rename
-- gulp-uglify
-- del
-- gulp-jshint
-- gulp-plumber
+- gulp-minify-css/gulp-clean-css :to compress css file
+- gulp-rename : to rename file, eg: add '.min'
+- gulp-uglify :to compress js file
+- del :to delete old file before reload
+- gulp-jshint : check syntax
+- gulp-plumber : check syntax and debug without stop
+</br>
 **gulp.watch**
 
 ### Relevant resource:
-0. [awesome node school](https://nodeschool.io/zh-tw/)
+0. [!!!awesome node school](https://nodeschool.io/zh-tw/)
 1. [gulp homepage](https://github.com/gulpjs/gulp)
 2. [gulp cheatsheet](https://github.com/osscafe/gulp-cheatsheet)
 3. [getting start with gulp](https://markgoodyear.com/2014/01/getting-started-with-gulp/)
@@ -27,10 +29,14 @@ origin code in  folder "eg from build-podcast"
 - [build-podcast gulp](https://build-podcast.com/gulp/)
 - [jshint in gulp](https://www.xiabingbao.com/gulp/2015/10/15/gulp-jshint)
 - [npm script1](https://aotu.io/notes/2016/02/26/use-npm-script-instead-of-gulp/?utm_source=tuicool&utm_medium=referral)
-  [npm script2](http://www.ruanyifeng.com/blog/2016/10/npm_scripts.html)
+</br>
+[npm script2](http://www.ruanyifeng.com/blog/2016/10/npm_scripts.html)
+[!!npm script example](http://substack.net/task_automation_with_npm_run)
 - [browsersync1](http://www.browsersync.cn/docs/gulp/)
-  [browsersync2](https://browsersync.io/docs/gulp/)
-  [browsersync3](https://segmentfault.com/a/1190000002607627)
+</br>
+[browsersync2](https://browsersync.io/docs/gulp/)
+</br>
+[browsersync3](https://segmentfault.com/a/1190000002607627)
 
 ### gulp exercise code:
 ```
@@ -66,4 +72,6 @@ npm install gulp-rename --save-dev
 
 //1-9 install jshint
 npm install gulp-jshint --save-dev
+
+//1-10 install plumber
 ```
